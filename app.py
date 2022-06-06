@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_cors import CORS
-from numpy import result_type
 from flask_restful import Resource, Api
 from predict import predict_personality_
 app = Flask(__name__)
